@@ -14,10 +14,7 @@ TODO:
 - side quests and main quest
 - fast traveling
 - make a max level cap for skills
-- testsetestse
- */
-
-//new comment
+- make github work
 
 public class main {
 	//geography

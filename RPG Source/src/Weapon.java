@@ -69,6 +69,9 @@ public class Weapon {
 		}else if (b.equals("greatsword")) {
 			typeAtk = 8;
 			type = "Great Sword";
+		}else if (b.equals("katana")) {
+			typeAtk = 6;
+			type = "Katana";
 		}//TODO add more weapon types - katana, hatchet, battleaxe, Great hammer
 		
 		atk = matAtk+typeAtk;
