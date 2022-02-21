@@ -17,8 +17,6 @@ TODO:
 
  */
 
-//new comment
-
 public class main {
 	//geography
 	public static String[] worldMap = new String[]{"Graydrift", "Greenville", "Kilrock", "Bleakhost", "Duskwood", "Stormvalley", "Summerfelt", "Nevershore", "Southport", "Direwatch"};
