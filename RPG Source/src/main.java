@@ -15,6 +15,7 @@ TODO:
 - fast traveling
 - make a max level cap for skills
 - make github work
+*/
 
 public class main {
 	//geography

@@ -77,7 +77,7 @@ public class Weapon {
 		}else if (b.equals("hatchet")) {
 			typeAtk = 3;
 			type = "Hatchet";//TODO add more weapon types - katana, hatchet, battleaxe, Great hammer
-		
+		}
 		atk = matAtk+typeAtk;
 		name = material+" "+type;
 	}
