@@ -15,6 +15,7 @@ TODO:
 - fast traveling
 - make a max level cap for skills
 - make github work
+ */
 
 public class main {
 	//geography
@@ -22,8 +23,6 @@ public class main {
 	public static String name = "no name";
 	public static int sector = 0;
 	public static String location = worldMap[sector];
-	//stats
-	public static int level = 1, exp = 0, levelup= level*81, points = 0, coins = 0, health = 50 , maxHealth = 50, strength = 1, defense = 1, dodge = 1, luck = 1, magic = 1, mana = 50, maxMana = 50, resistance = 1;
 
 	//usables
 	public static boolean justTPd = false;

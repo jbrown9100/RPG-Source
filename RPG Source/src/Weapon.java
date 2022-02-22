@@ -3,8 +3,6 @@ import java.util.Random;
 
 public class Weapon {
 
-	//Test to see if file is overwritten when 2 changes are made
-	
 	// get/set Variables
 	public static String name; //name of the weapon that info is being grabbed for.
 	public static String material;
