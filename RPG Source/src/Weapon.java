@@ -42,10 +42,22 @@ public class Weapon {
 			matAtk = 10;
 			material = "Blood-Iron";
 		}else if (a.equals("shadow-steel")) {
-			matAtk = 11;
+			matAtk = 12;
 			material = "Shadow-Steel";
+		}else if (a.equals("celestial-steel")) {
+			matAtk = 14;
+			material = "Celestial-Steel";
+		}else if (a.equals("demon-steel")) {
+			matAtk = 16;
+			material = "Demon-Steel";
+		}else if (a.equals("lumin-steel")) {
+			matAtk = 18;
+			material = "Lumin-Steel";
+		}else if (a.equals("mortem-steel")) {
+			matAtk = 22;
+			material = "Mortem-Steel";
 		}
-		//TODO add more materials - Celestial Steel, Demonic Steel, Luminous Steel, Death Steel (added bonus of leaching health)
+		//TODO add material costs
 		
 		int typeAtk = 0;
 		if (b.equals("dagger")) {
@@ -70,11 +82,19 @@ public class Weapon {
 			typeAtk = 8;
 			type = "Great Sword";
 		}else if (b.equals("katana")) {
-			typeAtk = 6;
+			typeAtk = 7;
 			type = "Katana";
 		}else if (b.equals("hatchet")) {
 			typeAtk = 3;
-			type = "Hatchet";//TODO add more weapon types - katana, hatchet, battleaxe, Great hammer
+			type = "Hatchet";
+		}else if (b.equals("battleaxe")) {
+			typeAtk = 6;
+			type = "BattleAxe";
+		}else if (b.equals("greathammer")) {
+			typeAtk = 8;
+			type = "GreatHammer";
+		}//TODO add in materials and cost values
+		
 		
 		atk = matAtk+typeAtk;
 		name = material+" "+type;
@@ -97,6 +117,14 @@ public class Weapon {
 			matCost = 33;
 		}else if (a.equals("shadow-steel")) {
 			matCost = 41;
+		}else if (a.equals("celestial-steel")) {
+			matCost = 65;
+		}else if (a.equals("demon-steel")) {
+			matCost = 88;
+		}else if (a.equals("lumin-steel")) {
+			matCost = 94;
+		}else if (a.equals("mortem-steel")) {
+			matCost = 135;
 		}
 		
 		int typeCost = 0;
@@ -114,9 +142,16 @@ public class Weapon {
 		}else if (b.equals("longsword")) {
 			typeCost = 21;
 		}else if (b.equals("greatsword")) {
-			typeCost = 32;
-		}//TODO add more weapon types
-		
+			typeCost = 36;
+		}else if (b.equals("katana")) {
+			typeCost = 27;
+		}else if (b.equals("hatchet")) {
+			typeCost = 15;
+		}else if (b.equals("battleaxe")) {
+			typeCost = 30;
+		}else if (b.equals("greataxe")) {
+			typeCost = 35;
+		}
 		cost = matCost+typeCost;
 		return cost;
 	}
